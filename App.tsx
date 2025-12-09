@@ -53,16 +53,16 @@ const App: React.FC = () => {
             {menuOpen ? <X className="text-amber-900" /> : <Menu className="text-amber-900" />}
           </button>
           <div className="hidden md:flex gap-6">
-            <button onClick={() => scrollToSection('about')} className="text-amber-900 hover:text-amber-600 transition-colors">專案理念</button>
-            <button onClick={() => scrollToSection('background')} className="text-amber-900 hover:text-amber-600 transition-colors">專案背景</button>
+            <button onClick={() => scrollToSection('about')} className="text-amber-900 hover:text-amber-600 transition-colors">專案背景</button>
+            <button onClick={() => scrollToSection('background')} className="text-amber-900 hover:text-amber-600 transition-colors">專案目標</button>
             <button onClick={() => scrollToSection('vision')} className="text-amber-900 hover:text-amber-600 transition-colors">專案願景</button>
             <button onClick={() => scrollToSection('info')} className="text-amber-900 hover:text-amber-600 transition-colors">活動資訊</button>
           </div>
         </div>
         {menuOpen && (
           <div className="md:hidden bg-white border-t border-amber-200">
-            <button onClick={() => scrollToSection('about')} className="block w-full text-left px-6 py-3 text-amber-900 hover:bg-amber-50">專案理念</button>
-            <button onClick={() => scrollToSection('background')} className="block w-full text-left px-6 py-3 text-amber-900 hover:bg-amber-50">專案背景</button>
+            <button onClick={() => scrollToSection('about')} className="block w-full text-left px-6 py-3 text-amber-900 hover:bg-amber-50">專案背景</button>
+            <button onClick={() => scrollToSection('background')} className="block w-full text-left px-6 py-3 text-amber-900 hover:bg-amber-50">專案目標</button>
             <button onClick={() => scrollToSection('vision')} className="block w-full text-left px-6 py-3 text-amber-900 hover:bg-amber-50">專案願景</button>
             <button onClick={() => scrollToSection('info')} className="block w-full text-left px-6 py-3 text-amber-900 hover:bg-amber-50">活動資訊</button>
           </div>
@@ -104,7 +104,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* 專案理念 */}
+      {/* 專案背景 */}
       <section id="about" className="py-20 px-6 bg-white/50">
         <div className="max-w-6xl mx-auto">
           <h3 className="text-4xl font-bold text-center text-amber-900 mb-4">專案背景</h3>
@@ -120,7 +120,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* 專案背景 */}
+      {/* 專案目標 */}
       <section id="background" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h3 className="text-4xl font-bold text-center text-amber-900 mb-4">專案目標</h3>
