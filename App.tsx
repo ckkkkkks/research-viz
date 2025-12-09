@@ -107,14 +107,14 @@ const App: React.FC = () => {
       {/* 專案理念 */}
       <section id="about" className="py-20 px-6 bg-white/50">
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-4xl font-bold text-center text-amber-900 mb-4">專案理念</h3>
+          <h3 className="text-4xl font-bold text-center text-amber-900 mb-4">專案背景</h3>
           <div className="w-20 h-1 bg-amber-400 mx-auto mb-12"></div>
           <div className="prose prose-lg max-w-4xl mx-auto text-gray-700 text-center">
             <p className="text-xl leading-relaxed mb-6">
-              我們相信每個孩子都擁有獨特的美感與創造力。幼兒快閃時裝秀不僅是一場展示，更是一個讓孩子們自信表達、勇敢展現自我的舞台。
+              近年來，台北市生育率低迷，社會對於育兒存在刻板印象 ，城市同時缺乏突顯「親子友善文化」的活動，導致親子互動場域與公共參與機會不足 。本專案「幼年快閃時裝秀」的使命，是成為「結合城市設計美學與親子溫暖互動的年度時尚盛事」 。
             </p>
             <p className="text-lg leading-relaxed">
-              透過時尚與藝術的結合，我們希望培養孩子的美學素養、自信心與表達能力，讓他們在快樂中成長，在展示中學習。
+              我們以「時尚・成長」為主題，規劃在圓山長廊廣場舉辦一場專屬孩童的快閃走秀 ，目標是全面翻轉社會對育兒的刻板印象，並透過創意與行動，讓台北展現出更具活力與生活品味的城市魅力 。
             </p>
           </div>
         </div>
@@ -123,22 +123,22 @@ const App: React.FC = () => {
       {/* 專案背景 */}
       <section id="background" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-4xl font-bold text-center text-amber-900 mb-4">專案背景</h3>
+          <h3 className="text-4xl font-bold text-center text-amber-900 mb-4">專案目標</h3>
           <div className="w-20 h-1 bg-amber-400 mx-auto mb-12"></div>
           <div className="grid md:grid-cols-3 gap-8">
             <FeatureCard 
               title="美感教育" 
-              content="在快速變化的時代，美感教育成為幼兒全人發展的重要一環。我們透過時裝展示，讓孩子從小接觸藝術與美學。"
+              content="透過服裝展演傳遞正向親子價值與生活美學，鼓勵家庭參與城市活動、共創回憶。"
               delay="0s"
             />
             <FeatureCard 
-              title="自信培養" 
-              content="許多孩子在成長過程中缺乏展示自我的機會。我們提供一個安全、溫馨的舞台，讓每個孩子都能勇敢表現。"
+              title="影響力" 
+              content="製作宣傳影片與社群推廣，影片曝光達10萬次以上。"
               delay="0.1s"
             />
             <FeatureCard 
               title="親子共創" 
-              content="時裝秀不只是孩子的舞台，更是親子共同參與、創造美好回憶的機會，增進家庭情感連結。"
+              content="專屬孩童的快閃時裝秀，吸引500人次民眾參與。"
               delay="0.2s"
             />
           </div>
@@ -170,8 +170,8 @@ const App: React.FC = () => {
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-8 h-8 bg-amber-400 rounded-full flex items-center justify-center text-white font-bold">3</div>
                   <div>
-                    <h4 className="text-xl font-bold text-amber-900 mb-2">創造美好回憶</h4>
-                    <p>為家庭創造珍貴的共同回憶，讓這場時裝秀成為孩子成長歷程中難忘的里程碑。</p>
+                    <h4 className="text-xl font-bold text-amber-900 mb-2">親子美好回憶</h4>
+                    <p>為家庭創造珍貴的共同回憶，吸引家庭一起參與，也可以讓年輕族群，更加認識孩童，提高台北市的生育率，讓這場時裝秀成為孩子成長歷程中難忘的里程碑。</p>
                   </div>
                 </div>
               </div>
