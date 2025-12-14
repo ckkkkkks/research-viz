@@ -241,16 +241,16 @@ const App: React.FC = () => {
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
               <div className="text-4xl mb-4">📅</div>
               <h4 className="text-xl font-bold mb-3">活動時間</h4>
-              <p className="text-amber-100">2025年1月15日</p>
+              <p className="text-amber-100">2026年12月19日</p>
               <p className="text-amber-100">週六下午 14:00-17:00</p>
               <p className="text-sm text-amber-200 mt-2">（請提前15分鐘報到）</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
               <div className="text-4xl mb-4">📍</div>
               <h4 className="text-xl font-bold mb-3">活動地點</h4>
-              <p className="text-amber-100">台北市信義區</p>
+              <p className="text-amber-100">台北市圓山</p>
               <p className="text-amber-100">親子創意空間</p>
-              <p className="text-sm text-amber-200 mt-2">（捷運市政府站步行5分鐘）</p>
+              <p className="text-sm text-amber-200 mt-2">（捷運圓山站步行5分鐘）</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 text-center">
               <div className="text-4xl mb-4">✍️</div>
@@ -273,7 +273,7 @@ const App: React.FC = () => {
 
       {/* 頁尾 */}
       <footer className="bg-amber-950 text-amber-200 py-8 px-6 text-center">
-        <p>© 2025 幼兒快閃時裝秀 | 讓每個孩子都閃閃發光 ✨</p>
+        <p>© 2026 幼兒快閃時裝秀 | 讓每個孩子都閃閃發光 ✨</p>
       </footer>
     </div>
   );
